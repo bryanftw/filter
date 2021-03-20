@@ -61,7 +61,7 @@ ItemDisplay[bey]: %MAP%%ORANGE%Baal's Eye
 ItemDisplay[mbr]: %MAP%%ORANGE%Mephisto's Brain
 
 //PoD Items
-ItemDisplay[cx5]: %MAP%%RED%»»%PURPLE% OOC %RED%««
+ItemDisplay[cx5]: %MAP%%NL%%RED%»»%PURPLE% OOC %RED%««%NL%
 ItemDisplay[cx6]: %MAP%%RED%»»%PURPLE% Diablo Soulstone %RED%««
 ItemDisplay[cx7]: %MAP%%RED%»»%ORANGE% %NAME%%RED% ««
 ItemDisplay[maz]: %MAP%%RED%»»%ORANGE% %NAME%%RED% ««
@@ -284,7 +284,7 @@ ItemDisplay[uhm UNI !ETH !ID]: %MAP%%GOLD%»» %GREEN%½ %PURPLE%%NAME%%GOLD% «
 ItemDisplay[xhb UNI !ETH !ID]: %MAP%%GOLD%»» %PURPLE%Gore Riders%GOLD% ««
 //jewelry
 ItemDisplay[UNI !ID rin]: %MAP%%NL%%RED%»» »» %PURPLE%UNID MANALD HEAL%RED% «« ««%NL%
-ItemDisplay[UNI !ID amu]: %MAP%%RED%»» »» %PURPLE%??NOKOZOAN OR SARACENS??%RED% «« ««
+ItemDisplay[UNI !ID amu]: %MAP%%NL%%RED%»» »» %PURPLE%??NOKOZOAN OR SARACENS??%RED% «« ««%NL%
 ItemDisplay[UNI !ID jew]: %MAP%%GOLD%»» »» %RED%R%ORANGE%a%YELLOW%i%GREEN%n%BLUE%b%ORANGE%o%PURPLE%w %PURPLE%Facet %GOLD%«« ««
 //shields
 ItemDisplay[pa9 UNI !ETH !ID]: %MAP%%GOLD%»» %PURPLE%Herald of Zakarum%GOLD% ««
@@ -361,7 +361,7 @@ ItemDisplay[6cb SOCK=4]: %NAME% %WHITE%[%SOCKETS%]
 ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo OR 7h7 OR 7tr OR 7br OR 7st OR 7p7) (ETH AND (NMAG OR RW)) (SOCK=4 OR SOCK=5)]: %GRAY%ETH %NAME% %WHITE%[%SOCKETS%]
 ItemDisplay[(7vo OR 7tr) (ETH AND !INF) AND (NMAG OR RW) AND !SUP SOCK=0]: %GRAY%ETH %NAME%
 //ETH SUP AXES
-ItemDisplay[(7wa OR 72a) ETH SUP (SOCK=0 OR SOCK=5 OR SOCK=6)]: %GREEN%***SUP ETH %WHITE%%NAME%[%SOCKETS%]%GREEN%***
+ItemDisplay[(7wa OR 72a) ETH SUP (SOCK=0 OR SOCK=5 OR SOCK=6) ED>9]: %GREEN%***SUP ETH %WHITE%%NAME%[%SOCKETS%]%GREEN%***
 //Grief/Beast/Passion
 ItemDisplay[7cr !RW NMAG ED>12 SOCK>2]: %GREEN%%NAME%%BLUE% +ED %WHITE%[%SOCKETS%]
 ItemDisplay[72a !RW NMAG ED>1]: %GREEN%%NAME%%BLUE% +ED %WHITE%[%SOCKETS%]
