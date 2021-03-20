@@ -118,13 +118,14 @@ ItemDisplay[gpy]: %YELLOW%P %WHITE%Topaz
 ItemDisplay[skz]: %ORANGE%°P %WHITE%Skull
 
 //Arrows and Bolts
+//HIDE all arrows in endgame because never lucky
+ItemDisplay[(cq2 OR aqv OR aq2) CLVL>85]:
 ItemDisplay[aqv CLVL>12]:
 ItemDisplay[aq2 NMAG CLVL>12]:
 ItemDisplay[aq2 MAG CLVL>40]:
 ItemDisplay[cqv CLVL>12]:
 ItemDisplay[cq2 NMAG CLVL>12]:
 ItemDisplay[cq2 MAG CLVL>40]:
-ItemDisplay[(cq2 OR aqv) CLVL>85]:
 
 //Circlets
 ItemDisplay[EQ7 MAG ETH]:
@@ -419,10 +420,6 @@ ItemDisplay[ush (!INF AND !ETH) AND (NMAG OR RW)  SOCK>1]: %NAME% %WHITE%[%SOCKE
 ItemDisplay[uit !ETH !RW NMAG ED>12 SOCK=4]: %GREEN%%NAME%%BLUE% +ED %WHITE%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG ITEMSTAT91>7 (SOCK=0 OR SOCK=4)]: %GREEN%%NAME%%BLUE% -REQ
 ItemDisplay[uit !ETH !RW NMAG ED>14 SOCK=0]: %GREEN%%NAME%%BLUE% +ED
-
-
-//HIDE TRASH UNIQUES
-ItemDisplay[(aqv OR aq2) UNI !ID]:
 
 // SHOW ME THAT UNIQ ITEM IS ETH
 ItemDisplay[UNI AND ETH AND SOCK=0]: %GRAY%ETH %GOLD%%NAME%
