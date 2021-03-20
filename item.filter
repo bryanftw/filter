@@ -283,7 +283,7 @@ ItemDisplay[uhm UNI !ETH !ID]: %MAP%%GOLD%»» %GREEN%½ %PURPLE%%NAME%%GOLD% «
 ItemDisplay[xhb UNI !ETH !ID]: %MAP%%GOLD%»» %PURPLE%Gore Riders%GOLD% ««
 //jewelry
 ItemDisplay[UNI !ID rin]: %MAP%%NL%%RED%»» »» %PURPLE%UNID MANALD HEAL%RED% «« ««%NL%
-ItemDisplay[UNI !ID amu]: %MAP%%RED%»» »» %PURPLE%UNIQUE AMULET HYPE%RED% «« ««
+ItemDisplay[UNI !ID amu]: %MAP%%RED%»» »» %PURPLE%??NOKOZOAN OR SARACENS??%RED% «« ««
 ItemDisplay[UNI !ID jew]: %MAP%%GOLD%»» »» %RED%R%ORANGE%a%YELLOW%i%GREEN%n%BLUE%b%ORANGE%o%PURPLE%w %PURPLE%Facet %GOLD%«« ««
 //shields
 ItemDisplay[pa9 UNI !ETH !ID]: %MAP%%GOLD%»» %PURPLE%Herald of Zakarum%GOLD% ««
@@ -388,11 +388,9 @@ ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw 
 ItemDisplay[7wa ETH !RW NMAG SOCK=3]: %GRAY%ETH %NAME% %WHITE%[%SOCKETS%]
 
 //Armors
-ItemDisplay[(utp OR uui OR xtp) ETH AND (NMAG OR RW) SOCK=2]: %GRAY%ETH %NAME% %WHITE%[%SOCKETS%]
-ItemDisplay[(utp OR uui OR xtp) !INF !ETH (NMAG OR RW) (SOCK=0 OR SOCK>2)]:%NAME% %WHITE%[%SOCKETS%]
-ItemDisplay[(utp OR uui OR xtp) !INF !ETH (NMAG OR RW) (SOCK=0 OR SOCK>2)]:%NAME% %WHITE%[%SOCKETS%]
-ItemDisplay[EQ2 ELT ETH AND (NMAG OR RW) (SOCK=0 OR SOCK>2)]: %GRAY%ETH %NAME% %WHITE%[%SOCKETS%]
-ItemDisplay[(utp OR uui OR xtp) !ETH !RW (NMAG OR RW) ED>12 SOCK>2]: %GREEN%%NAME%%BLUE% +ED %WHITE%[%SOCKETS%]
+ItemDisplay[(utp OR uui OR xtp) !INF !ETH (NMAG OR RW) SOCK>2 SUP]:%NAME% %WHITE%[%SOCKETS%]
+ItemDisplay[EQ2 ELT ETH AND (NMAG OR RW) (SOCK=0 OR SOCK>2) ED>10]: %GREEN%SUP %GRAY%ETH %NAME% %WHITE%[%SOCKETS%]
+ItemDisplay[(utp OR uui OR xtp) !ETH !RW (NMAG OR RW) (ED>12 OR ITEMSTAT91>7) SOCK>2]: %GREEN%%NAME%%BLUE% +ED %WHITE%[%SOCKETS%]
 
 //Helmets
 //ItemDisplay[(ci3 OR uh9) (!INF AND !ETH) AND (NMAG OR RW) SOCK=3]: %NAME% %WHITE%[%SOCKETS%]
