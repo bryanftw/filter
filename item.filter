@@ -108,7 +108,7 @@ ItemDisplay[glg]: %GREEN%°%GRAY%Gem
 ItemDisplay[glr]: %RED%°%GRAY%Gem
 ItemDisplay[glb]: %BLUE%°%GRAY%Gem
 ItemDisplay[gly]: %YELLOW%°%GRAY%Gem
-ItemDisplay[skl]: %ORANGE%°%WHITE%SKULL Gem
+ItemDisplay[skl]: %NL%%ORANGE%°%WHITE%SKULL Gem%NL%
 ItemDisplay[gpv]: %PURPLE%P %WHITE%Amethyst
 ItemDisplay[gpw]: %WHITE%P %WHITE%Diamond
 ItemDisplay[gpg]: %GREEN%P %WHITE%Emerald
@@ -390,7 +390,7 @@ ItemDisplay[7wa ETH !RW NMAG SOCK=3]: %GRAY%ETH %NAME% %WHITE%[%SOCKETS%]
 
 //Armors
 ItemDisplay[(utp OR uui OR xtp) !INF !ETH (NMAG OR RW) SOCK>2 SUP]:%NAME% %WHITE%[%SOCKETS%]
-ItemDisplay[EQ2 ELT ETH AND (NMAG OR RW) (SOCK=0 OR SOCK>2) ED>10]: %GREEN%SUP %GRAY%ETH %NAME% %WHITE%[%SOCKETS%]
+ItemDisplay[EQ2 ELT ETH (NMAG OR RW) (SOCK=0 OR SOCK>2) ED>10]: %GREEN%SUP %GRAY%ETH %NAME% %WHITE%[%SOCKETS%]
 ItemDisplay[(utp OR uui OR xtp) !ETH !RW (NMAG OR RW) (ED>12 OR ITEMSTAT91>7) SOCK>2]: %GREEN%%NAME%%BLUE% +ED %WHITE%[%SOCKETS%]
 
 //Helmets
@@ -416,7 +416,7 @@ ItemDisplay[(utp OR uui OR xtp) !ETH !RW (NMAG OR RW) (ED>12 OR ITEMSTAT91>7) SO
 ItemDisplay[pab (!INF AND ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK=4) RES>43]: %GRAY%ETH[%WHITE%res%GRAY%] %NAME% %WHITE%[%SOCKETS%]
 ItemDisplay[pab (!INF AND !ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK>2) RES>43]: %GRAY%[%WHITE%res%GRAY%] %NAME% %WHITE%[%SOCKETS%]
 ItemDisplay[CL3 (!INF AND !ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK>2) (RES>43 AND CLVL<81)]: %GRAY%[%WHITE%res%GRAY%] %NAME% %WHITE%[%SOCKETS%]
-ItemDisplay[ush (!INF AND !ETH) AND (NMAG OR RW)  SOCK>1]: %NAME% %WHITE%[%SOCKETS%]
+ItemDisplay[ush (!INF AND !ETH) AND (NMAG OR RW)  SOCK>1 (ED>10 OR ITEMSTAT91>7)]: %NAME% %WHITE%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG ED>12 SOCK=4]: %GREEN%%NAME%%BLUE% +ED %WHITE%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG ITEMSTAT91>7 (SOCK=0 OR SOCK=4)]: %GREEN%%NAME%%BLUE% -REQ
 ItemDisplay[uit !ETH !RW NMAG ED>14 SOCK=0]: %GREEN%%NAME%%BLUE% +ED
