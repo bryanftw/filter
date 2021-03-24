@@ -279,7 +279,6 @@ ItemDisplay[baa UNI !ETH !ID]: %MAP%%GOLD%»» %PURPLE%Arreat's Face%GOLD% ««
 ItemDisplay[bac UNI !ETH !ID]: %MAP%%GOLD%»» %PURPLE%Wolfhowl%GOLD% ««
 ItemDisplay[dra UNI !ETH !ID]: %MAP%%GOLD%»» %PURPLE%Jalal's Mane%GOLD% ««
 ItemDisplay[dre UNI !ETH !ID]: %MAP%%GOLD%»» %PURPLE%Ravenlore%GOLD% ««
-ItemDisplay[uhm UNI !ETH !ID]: %MAP%%GOLD%»» %GREEN%½ %PURPLE%%NAME%%GOLD% ««
 //boots
 ItemDisplay[xhb UNI !ETH !ID]: %MAP%%GOLD%»» %PURPLE%Gore Riders%GOLD% ««
 //jewelry
@@ -309,6 +308,8 @@ ItemDisplay[6lw UNI !ETH !ID]: %MAP%%NL%%GOLD%»»»»»»»»»»»» %PURPLE%W
 ItemDisplay[7gw UNI !ETH !ID]: %MAP%%NL%%GOLD%»»»»»»»»»»»» %PURPLE%Death's Web%GOLD% ««««««««««««%NL%
 ItemDisplay[obf UNI !ETH !ID]: %MAP%%NL%%GOLD%»»»»»»»»»»»» %PURPLE%Death's Fathom%GOLD% ««««««««««««%NL%
 ItemDisplay[uar UNI !ETH !ID]: %MAP%%NL%%GOLD%»»»»»»»»»»»» %GREEN%½ %PURPLE%%NAME%%GOLD% ««««««««««««%NL%
+ItemDisplay[7ws UNI !ETH !ID]: %MAP%%NL%%GOLD%»»»»»»»»»»»» %PURPLE%Astreon's Iron Ward%GOLD% ««««««««««««%NL%
+ 
 
 //GG Uniq Items (ETH)
 ItemDisplay[ulc UNI ETH !ID]: %MAP%%GOLD%FFFFFFFFFFFF %GRAY%ETH %PURPLE%Arachnid's Mesh %WHITE%[%RED%sorry%WHITE%]%GOLD% FFFFFFFFFFFF
